@@ -1,3 +1,5 @@
-from random import
-a = randint (4, 28)
-print ("나는 친구와"+ str(a) + "날 만날 것이다 ")
+a = "고양이"
+h = "산책"
+f = "좋아한다"
+
+print ("우리집" + a + "는" + h + "하는것을" +f)
