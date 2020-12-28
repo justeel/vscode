@@ -1,35 +1,44 @@
-ain = "앵무새"
-hob = "부리쪼기"
-name = "로이더"
-age = "4"
-print(name + "는" +hob+ "를 좋아합니다")
-print(name + "는"  +str(age)+ "살 입니다")
+# joochul = "971211-1234567"
 
-from random import*
+# print("성별 : " + joochul[7])
+# print("생년월일 : " + joochul[:6] )
 
-date = randint(4, 28)
-time = randint(17, 24)
-print ("우리가 게임하는 시간은" + str(date) + "일" +str(time)+ "시입니다")
+# ani = "앵무새는 새야"
+# # print(ani.replace("귀여워","이뻐"))
 
-sentence = """안녕하세요 저는 김주철 입니다
-저는 서울특별시 양천구에서 살고있고 축구를 좋아합니다 """
-print(sentence)
+# index = ani.index("새",)
+# print(index)
+# index = ani.index("새",index + 1)
+# print(index)
+# print(ani.count("새"))
 
-joochul = "971211-1234567"
+# print("나는 %d살 입니다" %24)
+# print("나는 %s을 좋아해요" %"abc")
+# print("나는 %s로 시작해요" % "A")
 
-print("성별 :" + joochul[0])
-print("연 : " +joochul[0:6])
-print("월 : " +joochul[2:6])
-print("주민번호 앞자리" + joochul[0:6])
-joochul2 = "1111111111111111111111111112111111"
-print("테스트 :" + joochul2[:30])
-print("테스토 " + joochul2[-10:])
+# print("나는 %s 색과 %s 색을 좋아해요" %("파란","빨간"))
 
-ad = "python is Amazing"
-print(ad.lower())
-print(ad.upper())
-print(ad.replace("python" , "java"))
-print(ad)
+# print("나는 {}살 입니다" .format(20))
+# print("나는 {1}색과 {0}을 좋아합니다" .format("파랑" , "빨간"))
 
-index = ad.index("n")
-print(index)
+# print("나는 {1}살이고 {0}색을 좋아합니다".format("20" ,"빨간"))
+
+# age = 24
+# clor = "파랑"
+# print(f"나는 {age}살이고 {clor}색을 좋아합니다")
+
+# print("백문이 불여일견 \n백견이 불여일타")
+# print('저는 "김주철" 입니다')
+# print("저는 \"사람\" 입니다")
+# print("자세한 내용은 여기서 확인E:\\vscode\\vscode>")
+
+# print("apple \t am")
+
+a = "http://youtube.com"
+b = a.replace("http://", "")
+print(b)
+b = b[:5]
+print(b)
+password = b[:3] + str(len(b)) + str(b.count("e")) + "!"
+print(password)
+print ("%s 의 비밀번호는 %s 입니다" % (b, password))
