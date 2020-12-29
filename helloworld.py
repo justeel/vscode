@@ -43,6 +43,12 @@ password = b[:3] + str(len(b)) + str(b.count("e")) + "!"
 print(password)
 print ("%s 의 비밀번호는 %s 입니다" % (b, password))
 
+a = "http:// youtube.com"
+b = a.replace("http://" , "")
+print(b)
+
+
+
 
 
 
